@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>HelloColis</title>
+</head>
+<body>
+        <header>
+            <a href="index.html" id="logo"><img src="assets/svg/logo_helloColis_color.svg" alt="logo hellocolis"/></a>
+            <div id="icons-resaux">
+                <a href=""><img src="assets/svg/icon_twitter.svg" alt="logo twitter"/></a>
+                <a href=""><img src="assets/svg/icon_linkedin.svg" alt="logo linkedin"/></a>
+                <a href=""><img src="assets/svg/icon_facebook.svg" alt="logo facebook"/></a>
+                <a href=""><img src="assets/svg/icon_instagram.svg" alt="logo instagram"/></a>
+            </div>
+        </header>
+        <main>
+            <div class="inscription">
+                <h2>Inscrivez-vous</h2>
+                <h4>pour plus d'informations</h4>
+                <p>“Nous nous engageons à respecter vos données personnelles et garantissons que nous ne les divulguerons ou revendrons en aucun cas à un tiers”</p>
+                <form method="POST" action="">
+                    <input type="text" name="nom" placeholder="Nom"/>
+                    <input type="text" name="prenom" placeholder="Prénom"/>
+                    <input type="mail" name="email" placeholder="Email"/>
+                    <div class="mesOptions">
+                        <div class="options">
+                            <input type="radio" name="utilisateur" value="Expediteur"/>
+                            <label>Expéditeur</label>
+                        </div>
+                        <div class="options">
+                            <input type="radio" name="utilisateur" value="Voyageur"/>
+                            <label>Voyageur</label>
+                        </div>
+                        <div class="options">
+                            <input type="radio" name="utilisateur" value="E-commerçant"/>
+                            <label>E-commerçant</label>
+                        </div>
+                        <div class="options">
+                            <input type="radio" name="utilisateur" value="Agence"/>
+                            <label>Agence Voyage</label>
+                        </div>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" name="autorisation" value="oui"/>
+                        <p>J’autorise HelloColis à m’envoyer des contenus par mail.</p>
+                    </div>  
+                        <button type="submit" class="bouton btn-form">S'INSCRIRE</button>
+                </form>
+            </div>
+        </main>
+    <footer>
+        <a href="" class="bouton pied">Conditions Générales d'Utilisation</a>
+        <a href="" class="bouton vert">Je m'inscris</a>
+    </footer>
+    
+</body>
+</html>
