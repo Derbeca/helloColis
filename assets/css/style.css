@@ -21,13 +21,15 @@ header {
     width: 100%;
 }
 #icons-resaux {
-    width: 100px;
+    width: 40%;
+    max-width: 150px;
     padding: 10px;
     display: flex;
     justify-content: space-around;
 }
 #icons-resaux a {
     width: 20%;
+    padding: 5px;
 }
 #icons-resaux a img {
     width: 100%;
@@ -83,14 +85,14 @@ p {
     line-height: 2rem;
     font-size: 1rem;
 }
-#info {
+.info {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 .block {
-    background-color: #D1D2D4;
-    margin: 20px auto;
+    background-color: #E6E7E8;
+    margin: 20px;
     padding: 10px;
     width: 250px;
 }
@@ -109,21 +111,24 @@ h3 {
     width: fit-content;
 }
 .services {
+    margin: 50px 0;
+}
+.btn-services {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.services a {
+.btn-services a {
     display: block;
     width: 100px;
     margin: 20px;
     color: black;
 }
-.services a img {
+.btn-services a img {
     display: block;
     margin: auto;
 }
-.services a p {
+.btn-services a p {
     color: black;
     text-align: center;
     margin: 0;
@@ -134,10 +139,16 @@ h3 {
 footer {
     display: flex;
     justify-content: space-around;
-    background-color: #D1D2D4;
+    background-color: #E6E7E8;
 }
-footer a {
-    font-size: .7rem;
-    height: fit-content;
-    text-align: center;
+.pied {
+    width: 170px;
+    height: 35px;
+    padding: 7px 0 0 0;
+    background-color: white;
+    color: black;
 }
+
+/* GRANDE ECRAN */
+
+@
