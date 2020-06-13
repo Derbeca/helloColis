@@ -41,11 +41,10 @@ header {
     max-width: 150px;
     padding: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 #icons-resaux a {
-    width: 15%;
-    padding: 5px;
+    width: 20%;
 }
 #icons-resaux a img {
     width: 100%;
@@ -165,9 +164,10 @@ footer {
 
 /* INSCRIPTION */
 .inscription p {
-    font-size: 12px;
-    margin: 20px 50px;
-    line-height: 1.5rem;
+    font-size: 10px;
+    margin: 20px auto;
+    width: 70%;
+    line-height: 1rem;
 }
 h4 {
     text-align: center;
@@ -189,14 +189,14 @@ input {
 .mesOptions {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     width: 260px;
     margin: 20px auto;
 }
 .options {
     display: flex;
     flex-wrap: wrap;
-    width: 130px;
+    width: 120px;
 }
 .options input {
     width: 15px;
@@ -204,8 +204,8 @@ input {
 }
 .options label {
     margin: 0;
-    padding: 8px 15px 0 5px;
-    font-size: 12px;
+    padding: 8px 5px 0 5px;
+    font-size: 10px;
 }
 .check {
     display: flex;
@@ -215,7 +215,8 @@ input {
     text-align: left;
     font-size: 10px;
     margin: 0;
-    padding: 5px 0 0 5px;
+    padding: 8px 0 0 5px;
+    line-height: 1rem;
 }
 input[type= 'checkbox'] {
     width: 15px;
@@ -224,6 +225,65 @@ input[type= 'checkbox'] {
 .btn-form {
     display: block;
     margin: 20px auto;
+}
+
+/* INSTRUCTIONS */
+#instructions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.illustration {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin: 30px;
+}
+.illustration img {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.illustration p {
+    position: absolute;
+    line-height: 1.2rem;
+    margin: 0;
+}
+.texte1 {
+    bottom: 0;
+    left: 0;
+    width: 120px;
+}
+.texte2 {
+    top: 40px;
+    left: 0;
+    width: 120px;
+}
+.texte3 {
+    bottom: 0;
+    left: 0;
+    width: 180px;
+}
+.texte4 {
+    top: 0;
+    right: 30px;
+    width: 180px;
+}
+.texte5 {
+    top: 0;
+    right: 0;
+    width: 120px;
+}
+.texte6 {
+    top: 40px;
+    left: 0;
+    width: 120px;
+}
+.texte7 {
+    bottom: 0;
+    left: 0;
+    width: 250px;
 }
 
 /* CSS TABLET*/
@@ -246,5 +306,30 @@ input[type= 'checkbox'] {
     .info {
         margin-top: 100px;
     }
+}
 
+/* CSS LAPTOP*/
+@media only screen and (min-width: 768px) {
+    form {
+        width: 60%;
+    }
+    .inscription p {
+        width: 60%;
+    }
+    .check p {
+        width: fit-content;
+    }
+}
+
+/* CSS GRANDE ECRAN*/
+@media only screen and (min-width: 900px) {
+    form {
+        width: 40%;
+    }
+    .inscription p {
+        width: 40%;
+    }
+    .check p {
+        width: fit-content;
+    }
 }
