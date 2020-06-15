@@ -53,17 +53,17 @@ sr.reveal('#container-cta', {
     delay: 300
 });
 sr.reveal('#texte', {
-    origin: 'bottom',
-    distance: '400px',
-    duration: 3000,
+    origin: 'right',
+
+    duration: 2000,
 });
 sr.reveal('.block', {
 	origin: 'left',
 	distance: '400px',
     duration: 3000,
 });
-sr.reveal('.services', {
+sr.reveal('.btn-services', {
 	origin: 'right',
-	distance: '400px',
+
     duration: 3000,
 });
