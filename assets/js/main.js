@@ -39,4 +39,31 @@ for(let i = 0; i < btnFermer.length; i++) {
             modal[j].style.display = 'none';
         }
     })
-  }
+};
+
+//--------------- ScrollReveal ---------------------
+//--------------------------------------------------
+const sr = ScrollReveal();
+
+
+sr.reveal('#container-cta', {
+	origin: 'left',
+	distance: '200px',
+    duration: 4000,
+    delay: 300
+});
+sr.reveal('#texte', {
+    origin: 'bottom',
+    distance: '400px',
+    duration: 3000,
+});
+sr.reveal('.block', {
+	origin: 'left',
+	distance: '400px',
+    duration: 3000,
+});
+sr.reveal('.services', {
+	origin: 'right',
+	distance: '400px',
+    duration: 3000,
+});

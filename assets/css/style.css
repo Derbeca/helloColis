@@ -337,12 +337,13 @@ input[type= 'checkbox'] {
     #container-cta {
         width: 50%;
         height: fit-content;
+        margin-top: 100px;
     }
     #texte {
         width: 50%;
     }
     .info {
-        margin-top: 100px;
+
     }
 }
 
@@ -371,22 +372,3 @@ input[type= 'checkbox'] {
         width: fit-content;
     }
 }
-
-  /* animations */
-  @keyframes montrer {
-    0% {opacity: 0;}
-    10% {opacity : 10}
-    25% {opacity: 25%;}
-    35% {opacity: 35%;}
-    50% {opacity: 50%;}
-    60% {opacity: 60%;}
-    75% {opacity: 75%;}
-    85% {opacity: 85%;}
-    100% {opacity: 100%;}
-  }
-  .montrer {
-    -webkit-animation-name: montrer;
-    animation-name: montrer;
-    -webkit-animation-duration: 1s;
-    animation-duration: 0.5s;
-  }
