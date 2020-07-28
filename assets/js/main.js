@@ -1,5 +1,13 @@
 console.log('code js chargé');
 
+w = window.screen.width;
+h = window.screen.height;
+
+if(window.devicePixelRatio < 1){
+  w = window.screen.width/window.devicePixelRatio;
+  h = window.screen.height/window.devicePixelRatio;
+}
+
 // MODALS //
 
 var modalInterUrbain = document.getElementById('modalInterUrbain');
