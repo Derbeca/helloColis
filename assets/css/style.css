@@ -4,6 +4,10 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-image: url('../images/fond_vertical.jpg');
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 a {
     text-decoration: none;
@@ -15,21 +19,21 @@ button {
     margin: auto;
 }
 #conteneur {
-    background-image: url('../images/fond_vertical.jpg');
-    background-size: 100vh;
-    background-repeat: no-repeat;
-    background-position: top;
+    width: 100%;
 }
 
 /* HEADER */
 header {
     display: flex;
     justify-content: space-between;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: sticky;
+    top: 0;
+    z-index: 99;
 }
 #logo {
     width: 15%;
-    min-width: 80px;
+    min-width: 60px;
     max-width: 120px;
     padding: 10px;
 }
@@ -55,7 +59,7 @@ header {
     height: 100vh;
 }
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
     line-height: 2rem;
     padding: 20px 30px 0 30px;
@@ -72,11 +76,20 @@ h2 {
     border-radius: 25px;
     color: white;
     width: fit-content;
-    padding: 12px 15px 9px 15px;
-    font-size: 12px;
+    height: fit-content;
+    padding: 10px 15px 9px 15px;
+    font-size: 11px;
     text-align: center;
     font-weight: bolder;
     margin: 10px;
+}
+.bouton:hover {
+    background-color: black;
+    color: white;
+}
+.bouton:active {
+    background-color: black;
+    color: white;
 }
 .vert {
     background-color: #437A75;
@@ -151,16 +164,65 @@ h3 {
 /* FOOTER */
 
 footer {
-    display: flex;
-    justify-content: space-around;
-    background-color: #E6E7E8;
+    height: fit-content;
+    background-color: gray;
+    color: white;
 }
-.pied {
-    width: 170px;
-    height: 35px;
-    padding: 7px 0 0 0;
-    background-color: white;
-    color: black;
+.infoFooter {
+    padding: 20px 0;
+}
+footer h5 {
+    padding: 10px;
+    margin: 0;
+    color: white;
+    font-weight: normal;
+}
+.infoFooter a {
+    display: block;
+    margin: auto;
+}
+.contact {
+    padding: 20px 0;
+}
+.contact div {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+.contact p {
+    font-size: .7em;
+    margin: 0;
+    padding: 0;
+}
+.contact i {
+    padding-right: 5px;
+    width: auto;
+    height: fit-content;
+}
+.liens {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.liens a{
+    font-size: .7em;
+    color: white;
+}
+.liens p {
+    margin: 0;
+    padding: 0 5px;
+}
+.droits {
+    margin: 0;
+    padding: 10px;
+    font-size: 0.6em;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 /* INSCRIPTION */
@@ -186,6 +248,9 @@ input {
     margin: 10px auto;
     padding-left: 5px;
     display: block;
+}
+h5 {
+    text-align: center;
 }
 .mesOptions {
     display: flex;
@@ -328,15 +393,18 @@ input[type= 'checkbox'] {
 /* CSS TABLET*/
 
 @media only screen and (min-width: 600px) {
-    #conteneur {
+    body {
         background-image: url('../images/fond_horizontel.jpg');
-        background-size: cover;
+        background-size: auto 100vh;
         background-repeat: no-repeat;
         background-position-y: top;
         background-position-x: right;
+
+    }
+    #conteneur {
         margin: 0;
-        width: 100vw;
-        height: 100vh;
+        height: fit-content;
+        padding-bottom: 30px;
     }
     #container-cta {
         width: 50%;
@@ -346,8 +414,15 @@ input[type= 'checkbox'] {
     #texte {
         width: 50%;
     }
-    .info {
-
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: gray;
+        height: fit-content;
+        width: 100%;
+    }
+    footer div {
+        width: calc(100% /2);
     }
 }
 
@@ -374,5 +449,8 @@ input[type= 'checkbox'] {
     }
     .check p {
         width: fit-content;
+    }
+    #conteneur {
+        padding-bottom: 90px;
     }
 }
