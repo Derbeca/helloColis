@@ -1,12 +1,9 @@
 console.log('code js chargé');
 
-w = window.screen.width;
-h = window.screen.height;
-
-if(window.devicePixelRatio < 1){
-  w = window.screen.width/window.devicePixelRatio;
-  h = window.screen.height/window.devicePixelRatio;
-}
+// First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+let vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
 
 // MODALS //
 
