@@ -8,7 +8,7 @@
 </head>
 <body>
         <header>
-            <a href="index.html" id="logo"><img src="assets/svg/logo_helloColis_color.svg" alt="logo hellocolis"/></a>
+            <a href="index.php" id="logo"><img src="assets/svg/logo_helloColis_color.svg" alt="logo hellocolis"/></a>
             <div id="icons-resaux">
                 <a href=""><img src="assets/svg/icon_twitter.svg" alt="logo twitter"/></a>
                 <a href=""><img src="assets/svg/icon_linkedin.svg" alt="logo linkedin"/></a>
@@ -53,7 +53,7 @@
         <footer>
             <div class="infoFooter">
                 <h5>PLUS D'INFORMATION</h5>
-                <a href="inscription.html" class="bouton orange">JE M'INSCRIS</a>
+                <a href="inscription.php" class="bouton orange">JE M'INSCRIS</a>
             </div>
             <div class="contact">
                 <h5>NOUS CONTACTER</h5>
@@ -68,7 +68,7 @@
                 </div>
             </div>
             <div class="liens">
-                <a href="instructions.html">Comment ça marche</a>
+                <a href="instructions.php">Comment ça marche</a>
                 <p>|</p>
                 <a href="assets/pdf/Charte sécurité - HelloColis.pdf">Charte sécurité</a>
                 <p>|</p>

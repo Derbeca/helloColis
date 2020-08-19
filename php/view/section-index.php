@@ -44,7 +44,7 @@
         </div>
         <!-- FIN MODALS -->
         <header>
-            <a href="index.html" id="logo"><img src="assets/svg/logo_helloColis_color.svg" alt="logo hellocolis"/></a>
+            <a href="index.php" id="logo"><img src="assets/svg/logo_helloColis_color.svg" alt="logo hellocolis"/></a>
             <div id="icons-resaux">
                 <a href="https://twitter.com/search?q=%40hellocolisvip&src=typed_query"><img src="assets/svg/icon_twitter.svg" alt="logo twitter"/></a>
                 <a href="https://www.linkedin.com/company/hello-colis/?originalSubdomain=fr"><img src="assets/svg/icon_linkedin.svg" alt="logo linkedin"/></a>
@@ -59,7 +59,7 @@
                     pour moins cher 
                     et en toute sécurité?</h2>
                 <div id="btn-cta">
-                    <a href="inscription.html" class="bouton orange">JE M'INSCRIS</a>
+                    <a href="inscription.php" class="bouton orange">JE M'INSCRIS</a>
                     <a href="#services" class="bouton vert">EN SAVOIR PLUS</a>
                 </div>
             </div>
@@ -76,7 +76,7 @@
                     <h3>innovateur</h3>
                     <p>Des solutions innovantes,<br> 
                         dans le secteur de la mobilité.</p>
-                    <a href="instructions.html" class="bouton orange">COMMENT ÇA MARCHE</a>
+                    <a href="instructions.php" class="bouton orange">COMMENT ÇA MARCHE</a>
                 </div>
                 <div class="block">
                     <img src="assets/svg/icon_securite.svg" alt="image sécurité"/>
@@ -118,7 +118,7 @@
         <footer>
             <div class="infoFooter">
                 <h5>PLUS D'INFORMATION</h5>
-                <a href="inscription.html" class="bouton orange">JE M'INSCRIS</a>
+                <a href="inscription.php" class="bouton orange">JE M'INSCRIS</a>
             </div>
             <div class="contact">
                 <h5>NOUS CONTACTER</h5>
@@ -133,7 +133,7 @@
                 </div>
             </div>
             <div class="liens">
-                <a href="instructions.html">Comment ça marche</a>
+                <a href="instructions.php">Comment ça marche</a>
                 <p>|</p>
                 <a href="assets/pdf/Charte sécurité - HelloColis.pdf">Charte sécurité</a>
                 <p>|</p>

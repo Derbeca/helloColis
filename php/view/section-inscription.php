@@ -8,7 +8,7 @@
 </head>
 <body>
         <header>
-            <a href="index.html" id="logo"><img src="assets/svg/logo_helloColis_color.svg" alt="logo hellocolis"/></a>
+            <a href="index.php" id="logo"><img src="assets/svg/logo_helloColis_color.svg" alt="logo hellocolis"/></a>
             <div id="icons-resaux">
                 <a href=""><img src="assets/svg/icon_twitter.svg" alt="logo twitter"/></a>
                 <a href=""><img src="assets/svg/icon_linkedin.svg" alt="logo linkedin"/></a>
@@ -49,6 +49,10 @@
                         <input type="checkbox" name="autorisation" value="oui"/>
                         <p>J’autorise HelloColis à m’envoyer des contenus par mail.</p>
                     </div>  
+                        <div class="confirmation">
+                        <!-- ICI ON VERRA LE MESSAGE DE CONFIRMATION -->
+                        </div>
+                        <input type="hidden" name="idForm" value="contact">
                         <button type="submit" class="bouton btn-form">S'INSCRIRE</button>
                 </form>
             </div>
@@ -71,7 +75,7 @@
                 </div>
             </div>
             <div class="liens">
-                <a href="instructions.html">Comment ça marche</a>
+                <a href="instructions.php">Comment ça marche</a>
                 <p>|</p>
                 <a href="assets/pdf/Charte sécurité - HelloColis.pdf">Charte sécurité</a>
                 <p>|</p>
