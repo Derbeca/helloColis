@@ -22,7 +22,7 @@
                 <h4>pour plus d'informations</h4>
                 <p>“Nous nous engageons à respecter vos données personnelles et garantissons que nous ne les divulguerons ou revendrons en aucun cas à un tiers.”</p>
                 <p>* champs obligatoires</p>
-                <form method="POST" action="">
+                <form method="POST" action="api-json.php" class="ajax">
                     <input type="text" name="nom" placeholder="Nom*"/>
                     <input type="text" name="prenom" placeholder="Prénom*"/>
                     <input type="mail" name="email" placeholder="Email*"/>
@@ -49,11 +49,12 @@
                         <input type="checkbox" name="autorisation" value="oui"/>
                         <p>J’autorise HelloColis à m’envoyer des contenus par mail.</p>
                     </div>  
+
+                        <button type="submit" class="bouton btn-form">S'INSCRIRE</button>
                         <div class="confirmation">
                         <!-- ICI ON VERRA LE MESSAGE DE CONFIRMATION -->
                         </div>
                         <input type="hidden" name="idForm" value="contact">
-                        <button type="submit" class="bouton btn-form">S'INSCRIRE</button>
                 </form>
             </div>
         </main>
@@ -85,6 +86,7 @@
             </div>
             <p class="droits">©hellocolis2020</p>
         </footer>
+        <script src="assets/js/main-contact.js"></script> 
     
 </body>
 </html>

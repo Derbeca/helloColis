@@ -296,6 +296,11 @@ input[type= 'checkbox'] {
     display: block;
     margin: 20px auto;
 }
+.confirmation {
+    text-align: center;
+    font-size: 12px;
+    
+}
 
 /* INSTRUCTIONS */
 #instructions {

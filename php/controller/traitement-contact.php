@@ -10,7 +10,7 @@ $ligne =
 <<<CODETEXT
 ---------
 Nom: $nom
-Prénom: $nom
+Prénom: $prenom
 Email: $email
 Utilisateur: $utilisateur
 CODETEXT;
@@ -24,4 +24,4 @@ file_put_contents($nomFichier, $ligne, FILE_APPEND);
 // envoyer un email
 @mail("contact@derbeca.com", "nouveau message contact", $ligne);
 // message à afficher au visiteur
-$confirmation = "merci $nom pour votre message.";
+$confirmation = "Merci $nom pour votre message.";
