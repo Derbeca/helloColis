@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Inscrivez-vous pour recevoir plus d'informations sur les services HelloColis">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>HelloColis</title>
+    <title>Inscription: devenir membre de la communauté - HelloColis</title>
 </head>
 <body>
         <header>
@@ -23,9 +24,9 @@
                 <p>“Nous nous engageons à respecter vos données personnelles et garantissons que nous ne les divulguerons ou revendrons en aucun cas à un tiers.”</p>
                 <p>* champs obligatoires</p>
                 <form method="POST" action="api-json.php" class="ajax">
-                    <input type="text" name="nom" placeholder="Nom*"/>
-                    <input type="text" name="prenom" placeholder="Prénom*"/>
-                    <input type="mail" name="email" placeholder="Email*"/>
+                    <input type="text" name="nom" placeholder="Nom*" required/>
+                    <input type="text" name="prenom" placeholder="Prénom*" required/>
+                    <input type="mail" name="email" placeholder="Email*" required/>
                     <h5>Qui êtes vous?</h5>
                     <div class="mesOptions">
                         <div class="options">
@@ -46,7 +47,7 @@
                         </div>
                     </div>
                     <div class="check">
-                        <input type="checkbox" name="autorisation" value="oui"/>
+                        <input type="checkbox" name="autorisation" value="Oui"/>
                         <p>J’autorise HelloColis à m’envoyer des contenus par mail.</p>
                     </div>  
 

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="La plateforme d'économie collaborative">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>HelloColis</title>
+    <title>L'économie collaborative pour la livraison de colis - HelloColis</title>
 </head>
 <body>
     <div id="fond">
@@ -23,7 +23,7 @@
                 <img src="assets/svg/icon_voyage.svg" alt="icône service voyage" class="iconService"/>
                 <img src="assets/svg/icon_fermer.svg" alt="icône fermer" class="btnFermer"/>
                 <h4>HelloColis VOYAGE</h4>
-                <p>Pour mettre en relation des voyageurs ayant de la place dans leurs bagages et de particuliers désireux d’envoyer ou acquérir des produits á l’étranger.</p>
+                <p>Pour mettre en relation des voyageurs ayant de l'espace libre dans leur bagage avec des particuliers souhaitant expédier des colis à l'étranger ou acquérir des produits venus d'ailleurs.</p>
             </div>
         </div>
         <div id="modalSante" class="modal">

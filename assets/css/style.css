@@ -299,7 +299,8 @@ input[type= 'checkbox'] {
 .confirmation {
     text-align: center;
     font-size: 12px;
-    
+    font-weight: bolder;
+    color: green;
 }
 
 /* INSTRUCTIONS */
