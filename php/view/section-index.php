@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="La plateforme d'économie collaborative">
+    <meta name="description" content="Profitez de vos voyages por gagner un complément de revenu qui s'adapte à vos trajets">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>L'économie collaborative pour la livraison de colis - HelloColis</title>
+    <title>Voyager et gagner de l'argent - HelloColis</title>
 </head>
 <body>
     <div id="fond">
