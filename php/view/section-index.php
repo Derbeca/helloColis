@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Profitez de vos voyages por gagner un complément de revenu qui s'adapte à vos trajets">
+    <meta name="description" content="Rentabilisez vos trajets grâce au transport des colis de façon et contribuez à impulser la transition écologique.">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Voyager et gagner de l'argent - HelloColis</title>
+    <title>HelloColis - Rentabiliser vos déplacements en transportant de colis</title>
 </head>
 <body>
     <div id="fond">
@@ -83,14 +83,14 @@
                     <h3>sécurisé</h3>
                     <p>Simple et pratique <br> 
                         et en toute sécurité.</p>
-                    <a href="assets/pdf/Charte sécurité - HelloColis.pdf" class="bouton">CHARTE SÉCURITÉ</a>
+                    <a href="assets/pdf/chartesecurite-HelloColis.pdf" class="bouton">CHARTE SÉCURITÉ</a>
                 </div>
                 <div class="block">
                     <img src="assets/svg/icon_ecologique.svg" alt="image écologie"/>
                     <h3>écologique</h3>
                     <p>Une alternative pour faciliter <br>
                         la transition écologique.</p>
-                    <a href="assets/pdf/Charte écologique - HelloColis.pdf" class="bouton vert">CHARTE ÉCOLOGIQUE</a>
+                    <a href="assets/pdf/charteecologique-HelloColis.pdf" class="bouton vert">CHARTE ÉCOLOGIQUE</a>
                 </div>
             </div>
             <div class="services">
@@ -135,11 +135,11 @@
             <div class="liens">
                 <a href="instructions.php">Comment ça marche</a>
                 <p>|</p>
-                <a href="assets/pdf/Charte sécurité - HelloColis.pdf">Charte sécurité</a>
+                <a href="assets/pdf/chartesecurite-HelloColis.pdf">Charte sécurité</a>
                 <p>|</p>
-                <a href="assets/pdf/Charte écologique - HelloColis.pdf">Charte écologique</a>
+                <a href="assets/pdf/charteecologique-HelloColis.pdf">Charte écologique</a>
                 <p>|</p>
-                <a href="assets/pdf/Conditions générales d'Utilisation - Hello Colis.pdf">Conditions Générales d'Utilisation</a>
+                <a href="assets/pdf/conditionsgeneralesd'utilisation-HelloColis.pdf">Conditions Générales d'Utilisation</a>
             </div>
             <p class="droits">©hellocolis2020</p>
         </footer>

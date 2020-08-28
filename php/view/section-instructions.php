@@ -2,9 +2,9 @@
 <html lang="fr">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Découvrez comment fonctionnent les services de HelloColis">
+    <meta name="description" content="Découvrez comment fonctionne le service inter-urbain de HelloColis">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Fonctionnemet des services - HelloColis</title>
+    <title>Fonctionnemet du service inter-urbain - HelloColis</title>
 </head>
 <body>
         <header>
@@ -70,11 +70,11 @@
             <div class="liens">
                 <a href="instructions.php">Comment ça marche</a>
                 <p>|</p>
-                <a href="assets/pdf/Charte sécurité - HelloColis.pdf">Charte sécurité</a>
+                <a href="assets/pdf/chartesecurite-HelloColis.pdf">Charte sécurité</a>
                 <p>|</p>
-                <a href="assets/pdf/Charte écologique - HelloColis.pdf">Charte écologique</a>
+                <a href="assets/pdf/charteecologique-HelloColis.pdf">Charte écologique</a>
                 <p>|</p>
-                <a href="assets/pdf/Conditions générales d'Utilisation - Hello Colis.pdf">Conditions Générales d'Utilisation</a>
+                <a href="assets/pdf/conditionsgeneralesd'utilisation-HelloColis.pdf">Conditions Générales d'Utilisation</a>
             </div>
             <p class="droits">©hellocolis2020</p>
         </footer>
